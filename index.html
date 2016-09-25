@@ -4,32 +4,30 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Merriweather' rel='stylesheet' type='text/css'> -->
-	<link href="https://fonts.googleapis.com/css?family=Titillium+Web:700,900|Roboto:400italic,400,700,700italic" rel="stylesheet" type="text/css">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Merriweather' rel='stylesheet' type='text/css'>
 
 	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
-	<link rel="stylesheet" href="styleSheet.css"> <!-- Resource style -->
+	<link rel="stylesheet" href="css/style-guide.css"> <!-- Resource style -->
 	<script src="js/modernizr.js"></script> <!-- Modernizr -->
   	
 	<title>Style Guide | CodyHouse</title>
 </head>
 <body>
 	<header>
-		<div class="cd-logo"><img src="logo.png" alt="Logo"></div>
+		<div class="cd-logo"><img src="assets/logo.svg" alt="Logo"></div>
 
 		<nav>
 			<ul class="cd-main-nav">
 				<li><a href="#branding">Branding</a></li>
 				<li><a href="#colors">Colors</a></li>
 				<li><a href="#typography">Typography</a></li>
-				<li><a href="#menus">Menus</a></li>
 				<li><a href="#buttons">Buttons</a></li>
 				<li><a href="#icons">icons</a></li>
 				<li><a href="#form">Form</a></li>
 			</ul> <!-- cd-main-nav -->
 		</nav>
 		
-		<!-- <a href="assets/assets-download-file.zip" class="cd-download"><span>Download assets</span></a> -->
+		<a href="assets/assets-download-file.zip" class="cd-download"><span>Download assets</span></a>
 		<a href="#0" class="cd-nav-trigger">Menu<span></span></a>
 	</header>
 
@@ -37,23 +35,23 @@
 		<h1>Style Guide 1.0</h1>
 
 		<section id="branding" class="cd-branding">
-			<h2>1. Branding</h2>
+			<h2>Branding</h2>
 
 			<ul>
-				<li class="cd-box"><img src="logo.png" alt="Logo version 1"></li>
-				<li class="cd-box"><img src="logo.png" alt="Logo version 2"></li>
+				<li class="cd-box"><img src="assets/branding/Logo.svg" alt="Logo version "></li>
 			</ul>
 
 			<ul>
-				<li><img src="icon.png" alt="Touch Icon 1"></li>
-				<li><img src="icon.png" alt="Touch Icon 2"></li>
-				<li><img src="icon.png" alt="Favicon 1"></li>
-				<li><img src="icon.png" alt="Favicon 2"></li>
+				<li><img src="assets/branding/tuz.svg" alt="Tuz"></li>
+				<li><img src="assets/branding/hobart.svg" alt="Hobart"></li>
+				<li><img src="assets/branding/falls.svg" alt="Falls"></li>
+				<li><img src="assets/branding/wineglass.svg" alt="Wineglass"></li>
+				<li><img src="assets/branding/casino.svg" alt="Casino"></li>
 			</ul> 
 		</section>
 
 		<section id="colors" class="cd-colors">
-			<h2>2. Colors</h2>
+			<h2>Colors</h2>
 
 			<ul>
 				<li class="cd-box">
@@ -79,174 +77,16 @@
 		</section>
 
 		<section id="typography" class="cd-typography">
-			<h2>3. Typography</h2>
+			<h2>Typography</h2>
 
 			<div class="cd-box">
-				<h2>H2 Heading, </h2><code>&lth2&gtExample&lt/h2&gt</code><span></span>
-				<h3>H3 Heading, </h3><code>&lth3&gtExample&lt/h3&gt</code><span></span>
-				<p>Content headings use h2 tags. Footer headings use h3 tags. Content is placed in paragraphs with class "lede" and divs with class "rich-text".</p>
-				<pre>
-					<code>
-&ltp class="lede"&gt
-	&ltdiv class="rich-text"&gt
-		Content
-	&lt/div&gt
-&lt/p&gt
-					</code>
-				</pre>
-				<p>
-					Links
-				</p>
-				<code>&lta href=#&gtExample&lt/a&gt</code>
-				<p>
-					Unordered lists
-				</p>
-				<pre>
-					<code>
-&ltul&gt
-	&ltli&gtExample&lt/li&gt
-	&ltli&gtExample&lt/li&gt
-&lt/ul&gt
-					</code>
-				</pre>
-			</div>
-		</section>
-		
-		<section id="menus" class="cd-menus">
-			<h2>4. Menus</h2>
-			
-			<div class="cd-box">
-				<p>The primary menu is displayed on all pages. Some menu items may expand into a drop down menu when moused over.</p>
-
-				<!-- The following code for the menus is taken from the linux.conf.au site and modified -->
-			    <li class="l-header--nav">
-     				<a href="#" class="l-header--nav dropdown-toggle " data-toggle="dropdown">
-        				Example 1
-      				</a>
-					<div class="menu-dropdown ">
-						<ul class="link-list" role="menu">
-							<li class="link-list--item">
-            					<a role="menuitem" href="#" class="link-list--link">
-                					Option 1
-            					</a>
-        					</li>
-      
-        					<li class="link-list--item">
-            					<a role="menuitem" href="#" class="link-list--link">
-                					Option 2
-            					</a>
-        					</li>
-      
-          					<li class="link-list--item">
-            					<a role="menuitem" href="#" class="link-list--link">
-                					Option 3
-            					</a>
-        					</li>
-      
-        					<li class="link-list--item">
-            					<a role="menuitem" href="#" class="link-list--link">
-                					Option 4
-            					</a>
-        					</li>
-      
-						</ul>
-					</div>
-    			</li>
-  
-    			<li class="l-header--nav">
-      				<a href="#" class="l-header--nav ">
-        				Example 2
-    				</a>
-				</li>
-  
-    			<li class="l-header--nav">
-      				<a href="#" class="l-header--nav dropdown-toggle " data-toggle="dropdown">
-        				Example 3
-    				</a>
-					<div class="menu-dropdown menu-dropdown__last">
-						<ul class="link-list" role="menu">
-      						<li class="link-list--item">
-            					<a role="menuitem" href="#" class="link-list--link">
-                					Option 1
-            					</a>
-          					</li>
-      
-          					<li class="link-list--item">
-            					<a role="menuitem" href="#" class="link-list--link">
-                					Option 2
-            					</a>
-          					</li>
-      
-  						</ul>
-					</div>
-				</li>
-				<pre><code>
-&ltli class="l-header--nav"&gt
-	&lta href="#" class="l-header--nav dropdown-toggle " data-toggle="dropdown"&gt
-		Example 1
-	&lt/a&gt
-	&ltdiv class="menu-dropdown "&gt
-		&ltul class="link-list" role="menu"&gt
-			&ltli class="link-list--item"&gt
-				&lta role="menuitem" href="#" class="link-list--link"&gt
-					Option 1
-				&lt/a&gt
-			&lt/li&gt
-      
-        	&ltli class="link-list--item"&gt
-            	&lta role="menuitem" href="#" class="link-list--link"&gt
-                	Option 2
-            	&lt/a&gt
-        	&lt/li&gt
-      
-          	&ltli class="link-list--item"&gt
-            	&lta role="menuitem" href="#" class="link-list--link"&gt
-                	Option 3
-            	&lt/a&gt
-        	&lt/li&gt
-      
-        	&ltli class="link-list--item"&gt
-            	&lta role="menuitem" href="#" class="link-list--link"&gt
-                	Option 4
-            	&lt/a&gt
-        	&lt/li&gt
-      
-		&lt/ul&gt
-	&lt/div&gt
-&lt/li&gt
-  
-&ltli class="l-header--nav"&gt
-    &lta href="#" class="l-header--nav "&gt
-        Example 2
-    &lt/a&gt
-&lt/li&gt
-  
-&ltli class="l-header--nav"&gt
-    &lta href="#" class="l-header--nav dropdown-toggle " data-toggle="dropdown"&gt
-        Example 3
-    &lt/a&gt
-	&ltdiv class="menu-dropdown menu-dropdown__last"&gt
-		&ltul class="link-list" role="menu"&gt
-      		&ltli class="link-list--item"&gt
-            	&lta role="menuitem" href="#" class="link-list--link"&gt
-                	Option 1
-            	&lt/a&gt
-          	&lt/li&gt
-      
-          	&ltli class="link-list--item"&gt
-            	&lta role="menuitem" href="#" class="link-list--link"&gt
-                	Option 2
-            	&lt/a&gt
-          	&lt/li&gt
-      	&lt/ul&gt
-	&lt/div&gt
-&lt/li&gt
-				</code></pre>
+				<h1>Heading, <span></span></h1>
+				<p>Aa - <span></span>. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis voluptate distinctio reprehenderit, autem deleniti ad <a href="#0">voluptatum eaque</a>. Optio ea aperiam nisi distinctio nemo repellat, voluptate fugiat. Quidem neque illum, blanditiis!</p>
 			</div>
 		</section>
 
 		<section id="buttons" class="cd-buttons">
-			<h2>5. Buttons</h2>
+			<h2>Buttons</h2>
 
 			<div class="cd-box">
 				<button class="btn">Normal</button>
@@ -258,22 +98,16 @@
 		</section>
 
 		<section id="icons" class="cd-icons">
-			<h2>6. Icons</h2>
+			<h2>Icons</h2>
 
 			<ul class="cd-box">
 				<li class="cd-icon-1"></li>
 				<li class="cd-icon-2"></li>
-				<li class="cd-icon-3"></li>
-				<li class="cd-icon-4"></li>
-				<li class="cd-icon-5"></li>
-				<li class="cd-icon-6"></li>
-				<li class="cd-icon-7"></li>
-				<li class="cd-icon-8"></li>
 			</ul>
 		</section>
 
 		<section id="form" class="cd-form">
-			<h2>7. Form</h2>
+			<h2>Form</h2>
 			
 			<div class="cd-box">
 				<form>
